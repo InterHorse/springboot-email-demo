@@ -1,4 +1,4 @@
-package pers.myz.springbootemaildemo.service;
+package pers.myz.springbootemaildemo.service.impl;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,6 +8,7 @@ import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
+import pers.myz.springbootemaildemo.service.MailService;
 
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
