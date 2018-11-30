@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  mail:
+    host: smtp.163.com
+    port: 25
+    default-encoding: utf-8
+    username: xxx@163.com
+    password: xxx
+    properties:
+      mail:
+        smtp:
+          # 如果是用 SSL 方式，需要配置如下属性
+          starttls:
+            enable: true
+            required: true
